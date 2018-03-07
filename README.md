@@ -16,4 +16,10 @@ bin/rails db:setup
 
 ```shell
 bundle exec rspec
+
+bundle exec rspec <file>
+
+bundle exec rspec <file>:<line_number>
+-> Run the nearest spec from the specified line number.
 ```
+> Using keyboard shortcut is recommended.
